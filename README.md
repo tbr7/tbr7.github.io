@@ -207,7 +207,7 @@ Starting version [v0.3.5](https://github.com/alshedivat/al-folio/releases/tag/v0
 **To enable automatic deployment:**
 1. Click on **Actions** tab and **Enable GitHub Actions**; do not worry about creating any workflows as everything has already been set for you.
 2. Make any other changes to your webpage, commit, and push. This will automatically trigger the **Deploy** action.
-3. Wait for a few minutes and let the action complete. You can see the progress in the **Actions** tab. If completed successfully, in addition to the `master` branch, your repository should now have a newly built `gh-pages` branch.
+3. Wait for a few minutes and let the action complete. You can see the progress in the **Actions** tab. If completed successfully, in addition to the `main` branch, your repository should now have a newly built `gh-pages` branch.
 4. Finally, in the **Settings** of your repository, in the Pages section, set the branch to `gh-pages` (**NOT** to `master`). For more details, see [Configuring a publishing source for your GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source).
 
 
@@ -217,7 +217,7 @@ If you need to manually re-deploy your website to GitHub pages, run the deploy s
 ```bash
 $ ./bin/deploy
 ```
-uses the `master` branch for the source code and deploys the webpage to `gh-pages`.
+uses the `main` branch for the source code and deploys the webpage to `gh-pages`.
 
 </details>
 
